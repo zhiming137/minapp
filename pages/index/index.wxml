@@ -4,6 +4,6 @@
     在开发小程序中总结的一些经验。
   </view>
   <view class="list">
-    <button bindtap="toDetail" data-path="scale/index">图片缩放移动</button>
+    <button bindtap="toDetail" data-path="scale/index">元素缩放、移动</button>
   </view>
 </view>
