@@ -1,0 +1,11 @@
+/**scale.wxss**/
+.img {
+  width: 100%;
+  height: 500rpx;
+  overflow: hidden;
+  background: #AAA;
+}
+.img image {
+  height:400px;
+}
+

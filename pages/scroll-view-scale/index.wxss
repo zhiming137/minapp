@@ -1,0 +1,12 @@
+/**scale.wxss**/
+.img {
+  width: 100%;
+  height: 500rpx;
+  background: #AAA;
+  text-align: center;
+}
+.img image {
+  height: 800rpx;
+  width: 600rpx;
+}
+

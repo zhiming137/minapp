@@ -4,6 +4,7 @@
     在开发小程序中总结的一些经验。
   </view>
   <view class="list">
-    <button bindtap="toDetail" data-path="scale/index">元素缩放、移动</button>
+    <button bindtap="toDetail" data-path="view-scale/index">view子元素缩放、移动</button>
+    <button bindtap="toDetail" data-path="scroll-view-scale/index">scroll-view子元素缩放</button>
   </view>
 </view>

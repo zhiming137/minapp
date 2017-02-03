@@ -1,0 +1,18 @@
+<!--scale.wxml-->
+<view class="container">
+  <view class="tip">
+    <text>scroll-view子元素缩放</text>
+    <text>说明：双指缩放开发工具上并不支持，需要在真机上进行。 </text>
+  </view>
+
+  <scroll-view class="img" bindtouchstart="touchstartCallback"  bindtouchmove="touchmoveCallback" bindtouchend="touchendCallback" scroll-x="true"  scroll-y="true" >
+      <image style="zoom:{{stv.scale}};" src="../../images/timg.jpeg"></image>
+  </scroll-view>
+
+  <view>
+    <text>x: {{stv.offsetX}}</text>, 
+    <text>y: {{stv.offsetY}}</text>, 
+    <text>d: {{stv.distance}}</text>, 
+    <text>s: {{stv.scale}}</text>, 
+  </view>
+</view>

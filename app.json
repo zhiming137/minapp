@@ -1,7 +1,8 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/scale/index",
+    "pages/view-scale/index",
+    "pages/scroll-view-scale/index",
     "pages/logs/logs"
   ],
   "window":{

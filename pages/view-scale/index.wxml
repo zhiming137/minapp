@@ -1,0 +1,17 @@
+<!--scale.wxml-->
+<view class="container">
+  <view class="tip">
+    <text>view子元素缩放、移动 </text>
+    <text>说明：双指缩放开发工具上并不支持，需要在真机上进行。 </text>
+  </view>
+  <view class="img" catchtouchstart="touchstartCallback"  catchtouchmove="touchmoveCallback" catchtouchend="touchendCallback"  >
+    <image style="transform:translate({{stv.offsetX}}px, {{stv.offsetY}}px) scale({{stv.scale}});" src="../../images/timg.jpeg"></image>
+  </view>
+
+  <view>
+    <text>x: {{stv.offsetX}}</text>, 
+    <text>y: {{stv.offsetY}}</text>, 
+    <text>d: {{stv.distance}}</text>, 
+    <text>s: {{stv.scale}}</text>, 
+  </view>
+</view>

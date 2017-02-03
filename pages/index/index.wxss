@@ -2,3 +2,6 @@
 .list {
   
 }
+.list button {
+    margin: 20rpx 0;
+}
